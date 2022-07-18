@@ -5,7 +5,7 @@ def Fibonacci(Numero):
         return 1
     else:
         return (Fibonacci(Numero-2)+Fibonacci(Numero-1)) 
-n=int(input("Escribir el vaor de 'n': "))
+n=int(input("Escribir el valor de 'n': "))
 print("Secuencia de Fibonacci:")
 for n in range(0, n):
   print(Fibonacci(n))
