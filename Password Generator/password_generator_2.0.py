@@ -1,4 +1,3 @@
-from email import charset
 import random
 from operator import length_hint
 from random import randint
