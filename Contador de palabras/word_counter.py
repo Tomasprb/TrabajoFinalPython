@@ -11,19 +11,18 @@ cuenta_palabras=0
 cuenta_palabras_frases=0
 
 
-
+def MostrarResumen(int1,int2,int3):
+    print ("Frases ingresadas:  ", int1 )
+    print ("Palabras ingresadas:    ", int2)
+    print ("Palabras ingresadas en total hta. ahora:   ", int3 )
 
 while frase!="coco" and frase!= "The End":
     cuenta_frases= cuenta_frases+1
     cuenta_palabras= len (frase.split())
     cuenta_palabras_frases=(cuenta_palabras_frases+cuenta_palabras )
- 
-
-   
-    print ("Frases ingresadas:  ", cuenta_frases )
-    print ("Palabras ingresadas:    ", cuenta_palabras)
-    print ("Palabras ingresadas en total hta. ahora:   ", cuenta_palabras_frases )
-
+    
+    MostrarResumen(cuenta_frases,cuenta_palabras,cuenta_palabras_frases)
+    
     frase=(input("Ingrese una frase: "))
     archivo=open(filename,"a")
     archivo.writelines([frase," "])
