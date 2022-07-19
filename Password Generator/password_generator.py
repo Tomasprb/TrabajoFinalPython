@@ -1,9 +1,4 @@
 import random
-from operator import length_hint
-from random import randint
-from typing import List
-
-
 leng = input("Ingrese longitud: ")
 if leng=='':
     leng=16
