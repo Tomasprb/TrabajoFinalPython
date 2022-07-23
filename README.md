@@ -51,7 +51,7 @@ registro).
 
 # Integrantes:
 
-1. Integrante 1
+1. Tomas Prott
 2. Integrante 2
 3. Integrante 3
 4. Integrante 4
@@ -59,4 +59,4 @@ registro).
 
 # Correcciones:
 
-- Corregir contador de palabras en el script de palindromos, ya que cuando cuenta el total de palabras ingresadas no coincide debido a que suma varias veces +1 a la variable 'WordCounter'.
+- Corregir contador de palabras en el script de palindromos, ya que cuando cuenta el total de palabras ingresadas no coincide debido a que suma varias veces +1 a la variable 'WordCounter'. (hecho)
