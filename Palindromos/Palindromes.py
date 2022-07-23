@@ -12,17 +12,15 @@ palabra=input("Ingrese una palabra: ")
 
 # suma varias veces una palabra con la variable 'WordCounter'
 # En esta linea ...
-WordCounter+=1
 while palabra != 'aloha' and palabra != 'bye':
-    # ... y en esta linea
     WordCounter+=1
+    # ... y en esta linea
     if palindrome(palabra)==True:
         PalindromeCounter+=1
     else:
         NormalCounter+=1
     palabra=input("Ingrese una palabra: ")
     # ... y en esta linea
-    WordCounter+=1
 print("la cantidad de palabras fue: ", WordCounter)
 print("la cantidad de palindromos fue: ", PalindromeCounter)
 print("la cantidad de palabras normales fue: ", NormalCounter)
