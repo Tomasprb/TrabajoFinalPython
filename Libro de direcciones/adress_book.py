@@ -1,6 +1,10 @@
+# - Una mejora seria usar la libreria incorporada en python 'uuid' para el campo ID
+
 import os
 import random
 from datetime import datetime
+
+
 here = os.path.dirname(os.path.abspath(__file__))
 filename = os.path.join(here, 'adresses.csv')
 
@@ -23,6 +27,8 @@ def Ingreso(nom,dir,tel):
     archivo.write(output)
     archivo.close()
     print("entrada creada con exito")
+
+# Deberia preguntar al usuario si desea continuar ingresando datos o terminar
 while True:
     nombre=input("ingrese un nombre: ")
     if nombre=="exit":

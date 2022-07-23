@@ -1,4 +1,9 @@
 import os
+
+# - El ejercicio cumple con la consigna.
+# - Una mejora seria usar un solo input dentro del while y no afuera
+# - Algunos cambios menores: quite espacios vacios de mas
+
 here = os.path.dirname(os.path.abspath(__file__))
 filename = os.path.join(here, 'phrases.txt')
 archivo=open(filename,"w")
@@ -25,6 +30,7 @@ while frase!="coco" and frase!= "The End":
     
     frase=(input("Ingrese una frase: "))
     archivo=open(filename,"a")
+    # Se usa \n para que las frases se escriban una debajo de otra
     archivo.writelines([frase," "])
     archivo.close()
 
@@ -32,28 +38,3 @@ while frase!="coco" and frase!= "The End":
 else:
     print ("Salió del ciclo")
     archivo.close()
-    
-
-
-
-   
-
- 
- 
-
-
-    
-
-    
-    
-  
-
-
-
-
-  
-  
-
-  
-
-

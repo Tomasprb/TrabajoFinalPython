@@ -1,4 +1,8 @@
+# - Una mejora seria que siempre tenga al menos uno de los caracteres elegidos por el usuario; es decir
+#   si escogio mayusculas y numeros, que tenga al menos una mayuscula y un numero
 import random
+
+
 leng = input("Ingrese longitud: ")
 if leng=='':
     leng=16
@@ -34,4 +38,5 @@ if sim=='y':
     charSet+=simList
 for i in range (int(leng)):
     Password+=CarAleatorio(charSet)
+
 print("Su contraseña es: " + Password)
