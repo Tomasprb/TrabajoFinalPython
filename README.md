@@ -1,4 +1,4 @@
-# EJERCICIOS A RESOLVER
+Te# EJERCICIOS A RESOLVER
 
 - Contador de Palabras: Crear un algoritmo que permita realizar el conteo de
 palabras de una frase ingresada por el usuario. Además, debe almacenar o registrar
@@ -52,7 +52,7 @@ registro).
 # Integrantes:
 
 1. Tomas Prott
-2. Integrante 2
+2. Shirel Samra 
 3. Integrante 3
 4. Integrante 4
 5. Integrante 5
