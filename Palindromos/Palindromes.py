@@ -1,8 +1,5 @@
 def palindrome(string):
-    # Reduzca la funcion a un s
-    string = string.lower().replace(' ', '') 
-    reversed_string = ''.join(reversed(string))
-    return string == reversed_string
+    return string == string[::-1]
 
 PalindromeCounter=0
 NormalCounter=0
