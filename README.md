@@ -59,7 +59,7 @@ registro).
 
 # Correcciones:
 
-- Ejercicio __'palindromos'__: Simplificar la funcion en el algoritmo de palindromos, para que solo tenga una sola linea, de la forma:
+- Ejercicio __'palindromos'__: Simplificar la funcion en el algoritmo de palindromos, para que solo tenga una sola linea, de la forma: (Hecho)
 
 ```
 def funcion(valor):
