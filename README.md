@@ -59,4 +59,9 @@ registro).
 
 # Correcciones:
 
-- Corregir contador de palabras en el script de palindromos, ya que cuando cuenta el total de palabras ingresadas no coincide debido a que suma varias veces +1 a la variable 'WordCounter'. (hecho)
+- Ejercicio __'palindromos'__: Simplificar la funcion en el algoritmo de palindromos, para que solo tenga una sola linea, de la forma:
+
+```
+def funcion(valor):
+    return valor == inverso_del_valor
+```
