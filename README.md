@@ -53,7 +53,7 @@ registro).
 
 1. Tomas Prott
 2. Shirel Samra 
-3. Integrante 3
+3. Lorena Levcovich
 4. Integrante 4
 5. Integrante 5
 
