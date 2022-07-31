@@ -54,14 +54,3 @@ registro).
 1. Tomas Prott
 2. Shirel Samra 
 3. Lorena Levcovich
-4. Integrante 4
-5. Integrante 5
-
-# Correcciones:
-
-- Ejercicio __'palindromos'__: Simplificar la funcion en el algoritmo de palindromos, para que solo tenga una sola linea, de la forma: (Hecho)
-
-```
-def funcion(valor):
-    return valor == inverso_del_valor
-```
